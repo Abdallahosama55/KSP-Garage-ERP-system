@@ -1,0 +1,33 @@
+/* WebKit (Chrome, Safari) */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+    transition: all.5s !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(59, 58, 58, 0.304);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1a0a9178;
+    cursor: pointer !important;
+    border-radius: .8rem;
+    transition: all.5s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    transition: all 1s;
+    cursor: pointer !important;
+    background: #1a0a91b7;
+}
+
+/* Firefox */
+/* width */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: green red;
+}

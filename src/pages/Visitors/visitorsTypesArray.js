@@ -1,0 +1,1 @@
+export const visitorsTypes = [{id:"random",name:"Random"},{id:"client",name:"Client"}]
